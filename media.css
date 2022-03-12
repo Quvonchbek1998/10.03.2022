@@ -96,6 +96,13 @@
             height: auto;
             margin: 20px auto;
         }
+        #third-sector{
+            display: flex;
+            flex-direction: column;
+        }
+        .th-s-menu{
+            width: 90%;
+        }
         .f-main{
             width: 100%;
             display: inline-block;
