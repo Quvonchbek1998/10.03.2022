@@ -15,7 +15,14 @@
 
 
 @media only screen and (max-width:992px){   
-
+    .navbar{
+        position: fixed;
+        width: 90%;
+        height: auto;
+    }
+    .container-fluid:focus {
+        height: 250px;
+    }
     header{
         width: 100%;
         height: auto;
@@ -141,6 +148,11 @@
         footer{
             text-align: center;
         }
+        iframe{
+            width: 95%;
+            height: 240px;
+            margin: 0 auto;
+        }
     }
 
 
@@ -153,7 +165,20 @@
                 height: auto;
             }
             .bg-image{
-                width: 100%;
-                height: auto;
+               display: none;
+            }
+            .header-main{
+                width: 90%;
+                margin: 20px auto;
+            }
+            #second-sector{
+                width: 90%;
+                padding: 60px 0;
+            }
+            iframe{
+                width: 95%;
+                height: 240px;
+             margin: 0 auto;
+
             }
             }
