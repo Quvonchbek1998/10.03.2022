@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width:1366px){   
+    header{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:992px){   
+
+    header{
+        width: 100%;
+        height: auto;
+    }
+    .bg-image{
+        width: 100%;
+        height: auto;
+    }
+    .header-main{
+        width: 50%;
+        height: auto;
+        margin: 20px 20px;
+    }
+    .header-main h1{
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .header-main p{
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .header-main button{
+        width: 154px;
+        height: 46px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    }
+    @media only screen and (max-width:776px){   
+        .navbar{
+            position: fixed;
+            width: 90%;
+            height: auto;
+        }
+        .container-fluid:focus {
+            height: 250px;
+        }
+        header{
+            width: 100%;
+            height: auto;
+        }
+        .bg-image{
+            width: 100%;
+            height: auto;
+        }
+        .header-main h1{
+            font-size: 24px;
+            line-height: 28px;
+        }
+        .header-main p{
+            font-size: 12px;
+            line-height: 13px;
+        }
+        .header-main button{
+            width: 120px;
+            height: 46px;
+            font-size: 14px;
+            line-height: 15px;
+        }
+        #second-sector{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            top: 50px;
+            padding-top: 150px ;
+            padding-bottom: 100px ;
+
+        }
+        .s-left{
+            width: 90%;
+            height: auto;
+            margin: 0 auto;
+        }
+        .s-right{
+            width: 90%;
+            height: auto;
+            margin: 20px auto;
+        }
+        .f-main{
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+        }
+        .f-m-left{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .f-m-left h2{
+            font-size: 36px;
+            line-height: 48px;
+            margin-bottom: 20px;
+        }
+        .f-m-left p{
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 30px;
+        }
+        #fifth-sector{
+            width: 90%;
+            margin: 100px auto;
+            display: flex;
+            padding: 120px 0;
+            flex-direction: column;
+            align-items: center;
+        }
+    .fifth-left{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        }
+        .fifth-right{
+            width: 90%;
+        }
+        footer{
+            text-align: center;
+        }
+    }
+
+
+
+
+        @media only screen and (max-width:448px ){   
+
+            header{
+                width: 100%;
+                height: auto;
+            }
+            .bg-image{
+                width: 100%;
+                height: auto;
+            }
+            }

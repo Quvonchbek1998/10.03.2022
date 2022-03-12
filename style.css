@@ -1,0 +1,292 @@
+:root{
+    --maingreencolor:  #01996D;
+    --thirdsectorbgc:  #245852;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body{
+    font-family: 'Lato', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+@font-face {
+    font-family: Georgia;
+    src: url("font/Georgia.ttf");
+}
+a{
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+button{
+    font-family: 'Lato', sans-serif;
+}
+.bg-image{
+    position: absolute;
+    top: 85px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: -10;
+}
+.navbar{
+    width: 80%;
+    height: 85px;
+    position: fixed;
+    margin: 0 auto;
+}
+.navbar-brand{
+    margin-right: 10%;
+}
+.nav-item{
+    margin-left: 72px;
+}
+.d-flex a{
+    color: black;
+}
+.d-flex a:hover{
+    color: black;
+}
+.navbar-button{
+    width: 164px;
+    height: 44px;
+}
+.header-main{
+    width: 23%;
+    height: auto;
+    margin: 175px 275px;
+}
+.header-main h1{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: var(--maingreencolor);
+}
+.header-main p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 31px;
+}
+.header-main button{
+    width: 204px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+#second-sector{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 150px 10%;
+}
+.s-left{
+    width: 45%;
+    height: auto;
+    margin-right: 122px;
+}
+.s-left p{
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 157%;
+}
+.s-left h2{
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #01996D;
+}
+.s-right {
+    width: 60%;
+    height: auto;
+}
+.s-right p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+}
+#third-sector{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    position: relative;
+}
+.th-s-menu{
+    position: relative;
+    width: 30%;
+    height: auto;
+    padding-bottom: 100px;
+}
+.big-num{
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 135px;
+    line-height: 140px;
+    color: rgba(1, 153, 109, 0.2);
+    position: absolute;
+}
+.th-s-menu h5{
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin: 90px auto;
+    margin-bottom: 55px;
+}
+.th-s-menu span{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+.th-s-menu img{
+    margin-top: 60px;
+}
+.second-menu{
+    margin-top: 200px;
+}
+#fourth-sector{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: var(--thirdsectorbgc);
+    padding: 120px 0;
+}
+.f-main{
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    color: #fff;
+}
+.f-m-left {
+    width: 40%;
+}
+.f-m-left h2{
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 57px;
+    margin-bottom: 30px;
+}
+.f-m-left p{
+    font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+margin-bottom: 50px;
+}
+.f-m-left button{
+    margin-bottom: 50px;
+}
+#fifth-sector{
+    width: 80%;
+    height: auto;
+    margin: 100px auto;
+    display: flex;
+    padding: 120px 0;
+}
+.fifth-left{
+    position: relative;
+    margin-right: 80px;
+}
+.fifth-left .fifth-left-in{
+    position: absolute;
+    left: -50px;
+    top: 360px;
+    width: 296.14px;
+    height: 293.9px;
+    background: #FFFFFF;
+    border-radius: 3.72971px;
+    text-align: center;
+    padding: 0 50px;
+    filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+
+}
+.fifth-left-in h3{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    padding: 20px 0;
+    padding-bottom: 0;
+}
+.fifth-left-in hr{
+    width: 99px;
+    margin: 13px auto;
+}
+.fifth-left-in p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+.fifth-left-in h5{
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 15.9292px;
+    line-height: 157%;
+}
+.fifth-right{
+    width: 40%;
+}
+.fifth-right span{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+.fifth-right h2{
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: var(--maingreencolor);
+}
+.fifth-right p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.fifth-right button{
+    width: 207px;
+    height: 65px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 40px;
+    line-height: 22px;
+}
+#footer{
+    width: 100%;
+    height: auto;
+    padding: 95px 250px;
+    background-color: var(--thirdsectorbgc);
+    color: white;
+}
+#footer h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 45px;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 60px;
+}
